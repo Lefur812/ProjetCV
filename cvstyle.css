@@ -1,0 +1,375 @@
+body 
+{
+	display: flex;
+	flex-direction: row;
+	font-size: 13px;
+    font-family: Arial;
+}
+
+.section-gauche 
+{
+	width: 25%;
+	background-color: gold;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-droite 
+{
+	width: 75%;
+	padding-left: 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+#photo_profile
+{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#photo_profile > img
+{
+	border-radius: 50%;
+	margin: 10%;
+}
+
+.contact
+{
+	display: block;
+	margin-block-start: 20px;
+	margin-block-end: 20px;
+	margin-inline: 0px;
+	padding-bottom: 40px;
+	margin-top: -20px;
+}
+
+.section-droite h1
+{
+	font-size: 25px;
+    text-transform: uppercase;
+}
+
+h1 strong
+{
+	color: gold; 
+}
+
+h2 
+{
+	font-size: 20px; 
+	position: relative;
+	margin-top: -15px;
+}
+
+h2 strong
+{
+	text-decoration: underline gold;
+}
+
+.section-droite h3
+{
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+hr
+{
+	background-color: gold;
+	border-color: gold; 
+	color: rgb(255,201,14); 
+	width: 100%;
+	size: 7px;
+}
+
+.section-droite h4,h5,h6
+{
+	font-size:14px ;
+	text-transform: uppercase;
+}
+
+.formation, .experience
+{
+    display: flex;
+	flex-direction: column;
+}
+
+.iconeformation 
+{
+	vertical-align: bottom;
+	margin-bottom: -12px;
+}
+
+.item
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.date
+{
+	width: 28%;
+	font-weight: bold;
+}
+
+.profession
+{
+	margin-top: 0px;  
+	padding: 0px;
+	width: 65%;
+	text-align: justify;
+}
+
+.recommandation
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.puce1
+{
+	list-style: none;
+}
+
+.puce1 li::before
+{
+	content: "\25E6"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -6px;
+}
+
+.puce2
+{
+	list-style: none;
+}
+
+.puce2 li::before
+{
+	content: "\2022"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -8px;
+}
+
+.puce3
+{
+	list-style: none;
+}
+
+.puce3 li::before
+{
+	content: "\2022"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -9px;
+}
+
+.puce4
+{
+	list-style: none;
+}
+
+.puce4 li::before
+{
+	content: "\25E6"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -7px;
+}
+
+.puce5
+{
+	list-style: none;
+}
+
+.puce5 li::before
+{
+	content: "\2022"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -7px;
+}
+
+.puce6
+{
+	list-style: none;
+}
+
+.puce6 li::before
+{
+	content: "\2022"; color: rgb(255,201,14); 
+	display: flex;
+	position: absolute;
+	margin-left: -30px;
+	font-size: 1.8em;
+	margin-top: -7px;
+}
+
+.name1 
+{
+    display: flex; 
+    flex-direction: column; 
+	justify-content:left; 
+	width:30% ;
+}
+
+.name2
+{
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: right;
+	width:30%;
+}
+
+.section-gauche h1 
+{
+	font-size: 17px;
+	text-transform: uppercase;
+	background-color:black;
+	color:gold;
+	width: 100%;
+	height: 8px; 
+	text-align: center; 
+	padding: 15px 0 15px 0;
+}
+
+.section-gauche h1 
+{
+	display: block;
+	margin-block: auto;
+}
+
+.section-gauche p
+{
+	margin: 20px;
+}
+
+.section-gauche h2
+{
+	font-size: 17px;
+	text-transform: uppercase;
+	background-color:black;
+	color: gold;
+	width: 100%;
+	height: 8px; 
+	text-align: center; 
+	padding: 15px 0 15px 0;
+}
+
+.moi
+{
+	margin-top: -60px;
+}
+
+.section-gauche h3
+{
+	font-size: 17px;
+	text-transform: uppercase;
+	background-color:black;
+	color: gold;
+	width: 100%;
+	height: 8px; 
+	text-align: center; 
+	padding: 15px 0 15px 0;
+}
+
+.section-gauche h2+p
+{
+	margin: 20px;
+	text-align: justify;
+}
+
+
+@media all and (max-width: 768px) 
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.section-gauche 
+	{
+		width: auto;
+	}
+	
+	.section-droite 
+	{
+		width: auto;
+		margin-left: -50px;
+	}
+	
+	.section-droite h1,h2
+	{
+		text-align: center;
+	}	
+	
+	#photo_profile
+	{
+		block-size: 100px;
+	}
+
+	.section-droite h1
+	{
+		font-size: 20px;
+	}
+
+	.h2
+	{
+		font-size: 15px;
+	}
+
+	.section-droite h3
+	{
+		font-size: 14px;
+	}
+
+	.section-droite h4,h5,h6
+	{
+		font-size:12px;
+	}
+
+	.item
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.date
+	{
+		width: auto;
+	}
+
+	.profession
+	{
+		display: block;
+		width: auto;
+		margin-left: 8%;
+		margin-right: 7%;
+	}
+
+	.recommandation
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 6%;
+	}
+
+}
+
+
