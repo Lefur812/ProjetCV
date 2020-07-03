@@ -3,7 +3,8 @@ body
 	display: flex;
 	flex-direction: row;
 	font-size: 13px;
-    font-family: Arial;
+	font-family: Arial;
+	margin: 0px;
 }
 
 .section-gauche 
@@ -32,17 +33,9 @@ body
 #photo_profile > img
 {
 	border-radius: 50%;
-	margin: 10%;
-}
-
-.contact
-{
-	display: block;
-	margin-block-start: 20px;
-	margin-block-end: 20px;
-	margin-inline: 0px;
-	padding-bottom: 40px;
-	margin-top: -20px;
+	width: 100px;
+	height: 100px;
+	margin: 9%;
 }
 
 .section-droite h1
@@ -80,7 +73,7 @@ hr
 	border-color: gold; 
 	color: rgb(255,201,14); 
 	width: 100%;
-	size: 7px;
+	height:7px;
 }
 
 .section-droite h4,h5,h6
@@ -248,7 +241,7 @@ hr
 .section-gauche h1 
 {
 	display: block;
-	margin-block: auto;
+	margin-left: auto;
 }
 
 .section-gauche p
@@ -291,6 +284,15 @@ hr
 	text-align: justify;
 }
 
+.mesloisirs
+{
+	margin-top: 500px;
+}
+
+#photos_loisirs
+{
+	margin-top: 20px;
+}
 
 @media all and (max-width: 768px) 
 {
@@ -310,7 +312,7 @@ hr
 	.section-droite 
 	{
 		width: auto;
-		margin-left: -50px;
+		margin-left: -42px;
 	}
 	
 	.section-droite h1,h2
@@ -320,7 +322,7 @@ hr
 	
 	#photo_profile
 	{
-		block-size: 100px;
+		height: 160px;
 	}
 
 	.section-droite h1
@@ -347,6 +349,7 @@ hr
 	{
 		display: flex;
 		flex-direction: column;
+		margin-left: 6px;
 	}
 
 	.date
@@ -358,7 +361,7 @@ hr
 	{
 		display: block;
 		width: auto;
-		margin-left: 8%;
+		margin-left: 11%;
 		margin-right: 7%;
 	}
 
@@ -367,7 +370,12 @@ hr
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		margin: 6%;
+		margin: 7%;
+	}
+
+	.mesloisirs
+	{
+		margin-top: 0px;
 	}
 
 }
