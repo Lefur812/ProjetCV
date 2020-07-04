@@ -7,7 +7,7 @@ body
 	margin: 0px;
 }
 
-.section-gauche 
+.aside 
 {
 	width: 25%;
 	background-color: gold;
@@ -15,7 +15,7 @@ body
 	flex-direction: column;
 }
 
-.section-droite 
+.main 
 {
 	width: 75%;
 	padding-left: 10%;
@@ -38,7 +38,7 @@ body
 	margin: 9%;
 }
 
-.section-droite h1
+.main h1
 {
 	font-size: 25px;
     text-transform: uppercase;
@@ -61,7 +61,7 @@ h2 strong
 	text-decoration: underline gold;
 }
 
-.section-droite h3
+.main h3
 {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -76,7 +76,7 @@ hr
 	height:7px;
 }
 
-.section-droite h4,h5,h6
+.main h4,h5,h6
 {
 	font-size:14px ;
 	text-transform: uppercase;
@@ -226,7 +226,7 @@ hr
 	width:30%;
 }
 
-.section-gauche h1 
+.aside h1 
 {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -238,18 +238,18 @@ hr
 	padding: 15px 0 15px 0;
 }
 
-.section-gauche h1 
+.aside h1 
 {
 	display: block;
 	margin-left: auto;
 }
 
-.section-gauche p
+.aside p
 {
 	margin: 20px;
 }
 
-.section-gauche h2
+.aside h2
 {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -266,7 +266,7 @@ hr
 	margin-top: -60px;
 }
 
-.section-gauche h3
+.aside h3
 {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -278,7 +278,7 @@ hr
 	padding: 15px 0 15px 0;
 }
 
-.section-gauche h2+p
+.aside h2+p
 {
 	margin: 20px;
 	text-align: justify;
@@ -304,18 +304,18 @@ hr
 		align-items: center;
 	}
 	
-	.section-gauche 
+	.aside 
 	{
 		width: auto;
 	}
 	
-	.section-droite 
+	.main 
 	{
 		width: auto;
 		margin-left: -42px;
 	}
 	
-	.section-droite h1,h2
+	.main h1,h2
 	{
 		text-align: center;
 	}	
@@ -325,7 +325,7 @@ hr
 		height: 160px;
 	}
 
-	.section-droite h1
+	.main h1
 	{
 		font-size: 20px;
 	}
@@ -335,12 +335,12 @@ hr
 		font-size: 15px;
 	}
 
-	.section-droite h3
+	.main h3
 	{
 		font-size: 14px;
 	}
 
-	.section-droite h4,h5,h6
+	.main h4,h5,h6
 	{
 		font-size:12px;
 	}
